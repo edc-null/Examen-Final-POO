@@ -32,7 +32,14 @@ animaux. Ils ont certaines propriétés en commun, comme la capacité à faire u
 Par contre, la capacité à faire un bruit peut "prendre PLUSIEURS FORMES" dépendamment de
 l'animal (produire un son différent).
 
+Un fichier csv est un fichier qui contient du texte, mais plus précisément des valeurs séparées par une virgule
+(CSV = "comma-separated values"). Ça sert à stocker de l'information/des donneés sous forme de tableau.
+En classe, on a vu la base de donnée SQLite qui sert à la même chose, mais qui est beaucoup plus
+puissante.
 
+Une liste est un groupe d'éléments.....
+
+Un dictionnaire est un ensemble de paires clé-valeurs. par exemple, {"CA": "Canada"}
 
 
 

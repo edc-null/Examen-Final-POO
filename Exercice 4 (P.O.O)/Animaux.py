@@ -7,11 +7,11 @@ class Animal:
 
 class Chien(Animal):
     def bruit(self):
-        print(self.nom + "fait WOUF.")
+        print(self.nom + " fait WOUF.")
 
 class Chat(Animal):
     def bruit(self):
-        print(self.nom + "fait MIAOU.")
+        print(self.nom + " fait MIAOU.")
 
 
 animal = Animal("Robert")

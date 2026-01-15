@@ -27,7 +27,7 @@ class Affichage:
 
         print() #Skip une ligne
         for i in range(n):
-            print(lignes_gauche[i] + "  " + lignes_droite[i])
+            print(lignes_gauche[i] + "  " + lignes_droite[i]) # Assemble les deux triangles ligne par ligne
 
 
 

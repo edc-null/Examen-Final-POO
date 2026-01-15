@@ -1,5 +1,5 @@
 class Animal:
-    def __init__(self, nom, poids):
+    def __init__(self, nom):
         self.nom = nom
 
     def bruit(self):
@@ -13,4 +13,12 @@ class Chat(Animal):
     def bruit(self):
         print(self.nom + "fait MIAOU.")
 
+
+animal = Animal("Robert")
+chien = Chien("Leopold")
+chat = Chat("Sophie")
+
+animal.bruit()
+chien.bruit()
+chat.bruit()
 

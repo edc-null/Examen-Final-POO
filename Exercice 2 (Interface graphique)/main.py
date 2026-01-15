@@ -9,7 +9,6 @@ def action_charger():
         a = f.readline().strip()
     double.setText(a)
 
-
 def action_save():
     with open(fichier, "w", encoding="utf-8") as f:
         f.write(double.text())

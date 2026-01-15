@@ -1,4 +1,5 @@
 from Triangle import Triangle
+
 class Affichage:
 
     def saisie_utilisateur(self):
@@ -15,7 +16,9 @@ class Affichage:
 
 
     def print_triangles(self):
+
         n = self.saisie_utilisateur()
+
         triangle_gauche = Triangle(n, True)
         triangle_droite = Triangle(n, False)
 
